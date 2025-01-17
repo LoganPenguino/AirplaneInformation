@@ -1,0 +1,80 @@
+/*Body*/
+*{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+   &::selection{
+      color: #62ff00;
+      background-color: #363636;
+   }
+}
+hr {
+   border-color: black;
+   border: 3px double;
+}
+body {
+   background-color: #f4f471;
+}
+.btn {
+   color: black;
+   padding: 5px 10px;
+   box-shadow: -3px -3px black;
+   background-color: pink;
+   border-radius: 10px;
+   text-decoration: none;
+   cursor: pointer;
+   transition: all 0.5s ease;
+
+   &:hover,
+   &:focus,
+   &:focus-visible,
+   &:focus-within {
+      background-color: #b260ff;
+   }
+}
+
+/*Text*/
+#amount {
+   font-size: 2em;
+   text-align: center;
+}
+h1 {
+   color: black;
+   display: inline;
+}
+#clicks {
+   text-align: center;
+   margin-right: 10px;
+}
+.top {
+   float: left;
+}
+p {
+   color: black;font-family: Dekko;
+}
+/*Images*/
+img {
+   box-shadow: -5px -5px black;
+   float: left;
+   margin-right: 10px;
+   user-select: none;
+}
+#airbuslogo {
+   height: 200px;
+}
+#plane {
+   height: 200px;
+   box-shadow: 0 0;
+   display: block; float: none;
+   user-select: none;
+}
+#add {
+   align-self: center;
+   display: inline-block;
+   float: none;
+}
+#boeing787-10 {
+   height: 200px;
+}
+#boeing737-400 {
+   height: 200px;
+}
