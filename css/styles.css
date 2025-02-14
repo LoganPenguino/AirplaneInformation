@@ -41,7 +41,11 @@ body {
 h1 {
    color: black;
    display: inline;
-   user-select: all;
+   user-select: auto;
+}
+p {
+   color: black;font-family: Dekko;
+   user-select: auto;
 }
 #clicks {
    text-align: center;
@@ -49,10 +53,6 @@ h1 {
 }
 .top {
    float: left;
-}
-p {
-   color: black;font-family: Dekko;
-   user-select: all;
 }
 /*Images*/
 img {
