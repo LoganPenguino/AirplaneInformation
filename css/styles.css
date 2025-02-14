@@ -1,6 +1,7 @@
 /*Body*/
 *{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   user-select: none;
 
    &::selection{
       color: #62ff00;
@@ -40,6 +41,7 @@ body {
 h1 {
    color: black;
    display: inline;
+   user-select: all;
 }
 #clicks {
    text-align: center;
@@ -50,6 +52,7 @@ h1 {
 }
 p {
    color: black;font-family: Dekko;
+   user-select: all;
 }
 /*Images*/
 img {
