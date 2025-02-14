@@ -1,7 +1,6 @@
 /*Body*/
 *{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
-   user-select: none;
 
    &::selection{
       color: #62ff00;
@@ -32,7 +31,11 @@ body {
       background-color: #b260ff;
    }
 }
-
+#ethanAdd{
+   background-color: #00ff00;
+   right: 0px;
+   top: 0px;
+}
 /*Text*/
 #amount {
    font-size: 2em;
@@ -41,11 +44,9 @@ body {
 h1 {
    color: black;
    display: inline;
-   user-select: auto;
 }
 p {
    color: black;font-family: Dekko;
-   user-select: auto;
 }
 #clicks {
    text-align: center;
