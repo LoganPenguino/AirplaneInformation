@@ -36,6 +36,9 @@ body {
    right: 0px;
    top: 0px;
 }
+#lizardLogo{
+   height: 70px;
+}
 /*Text*/
 #amount {
    font-size: 2em;
