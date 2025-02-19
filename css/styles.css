@@ -33,13 +33,13 @@ body {
 }
 #ethanAdd{
    position: fixed;
-   bottom: 0px;
    background-color: #00ff00;
    border: black 2px solid;
    border-radius: 10px;
    height: 120px;
-   right: 0px;
-   top: 0px;
+   bottom: 0px;
+   left: 100px;
+   width: 50%;
 }
 #lizardLogo{
    height: 120px;
