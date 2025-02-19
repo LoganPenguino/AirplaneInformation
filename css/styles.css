@@ -30,7 +30,10 @@ body {
    &:focus-within {
       background-color: #b260ff;
    }
-#Adb{
+}
+#adb{
+   position: fixed;
+   bottom: 15px;
    color: black;
    padding: 5px 10px;
    box-shadow: -3px -3px black;
@@ -47,19 +50,15 @@ body {
       background-color: #58d200;
    }
 }
-}
 #ethanAdd{
    position: fixed;
    background-color: #00ff00;
    border: black 2px solid;
    border-radius: 10px;
    height: 120px;
-   bottom: 0px;
+   bottom: 5px;
    left: 100px;
-   width: 50%;
-}
-#lizardLogo{
-   height: 120px;
+   width: 25%;
 }
 /*Text*/
 #amount {
@@ -106,4 +105,9 @@ img {
 }
 #boeing737-400 {
    height: 200px;
+}
+#lizardLogo{
+   height: 120px;
+   box-shadow: none;
+   border-radius: 10px;
 }
