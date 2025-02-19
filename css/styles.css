@@ -32,6 +32,8 @@ body {
    }
 }
 #ethanAdd{
+   position: fixed;
+   bottom: 0px;
    background-color: #00ff00;
    border: black 2px solid;
    border-radius: 10px;
