@@ -85,6 +85,7 @@ img {
    float: left;
    margin-right: 10px;
    user-select: none;
+   cursor: auto;
 }
 #airbuslogo {
    height: 200px;
