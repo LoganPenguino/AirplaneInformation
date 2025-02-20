@@ -60,10 +60,6 @@ body {
    left: 100px;
    width: 25%;
 }
-#lizardSeperation{
-   width: 1px;
-   height: 120px;
-}
 /*Text*/
 #amount {
    font-size: 2em;
@@ -115,4 +111,5 @@ img {
    height: 120px;
    box-shadow: none;
    border-radius: 10px;
+   border-right: black 2px solid;
 }
